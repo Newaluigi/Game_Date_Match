@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/assets/css/form.css" />
@@ -10,15 +11,17 @@
 </head>
 
 <body>
-  <div class="form-container"></div>
-  <header>
-        <img  class="logo" src="/assets/img/logocoeur1.png" alt="logo"/>
-    <div class="title">
-        <h1> Find your match ! </h1>
-    </div>
-</header>
-    
-    <form method="post" action="traitement.php"> 
+    <div class="form-container"></div>
+    <header>
+        <div id="logo"><a href="/home.html">
+                <img src="assets/img/logocoeur1.png" alt="logo"></a>
+        </div>
+        <div class="title">
+            <h1> Find your match ! </h1>
+        </div>
+    </header>
+
+    <form method="post" action="traitement.php">
         <div class="question">
             <div class="bg-form">
                 <div>
@@ -33,7 +36,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="Question2"> What is your favorite destination ?</label> 
+                    <label for="Question2"> What is your favorite destination ?</label>
                     <br>
                     <select name="Question2" id="Question">
                         <option value=""></option>
@@ -44,7 +47,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="Question3">What is your favorite movie ?</label> 
+                    <label for="Question3">What is your favorite movie ?</label>
                     <br>
                     <select name="Question3" id="Question">
                         <option value=""></option>
@@ -56,7 +59,7 @@
                 </div>
                 <div>
                     <label for="Question4"> Your ideal position ?</label>
-                    <br> 
+                    <br>
                     <select name="Question4" id="Question">
                         <option value=""></option>
                         <option value="9"> 69</option>
@@ -64,14 +67,14 @@
                         <option value="11"> 67</option>
                         <option value="12"> 66</option>
                     </select>
-                </div>   
+                </div>
             </div>
         </div>
-          <div class="bouton">
-    <a href="gallery.html" class="match">MATCH </a>
-    </div>
+        <div class="bouton">
+            <a href="gallery.html" class="match">MATCH </a>
+        </div>
     </form>
-</div>
+    </div>
 
 
     <footer>
@@ -84,4 +87,5 @@
         </div>
     </footer>
 </body>
+
 </html>
