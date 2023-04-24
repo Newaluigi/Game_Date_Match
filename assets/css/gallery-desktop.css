@@ -9,31 +9,42 @@
 }
 
 /***********************************************************LOGO**********************************************************************/
-.logo {
-    background-color: var(--background-color);
-    width: auto;
-    height: auto;
+#logo {
+    position: absolute;
+    margin-right: 15px;
+
 }
 
-.logo img {
-    width: 15%;
-    height: 15%;
+#logo img {
+    width: 30%;
+    height: 30%;
+    margin-top: -40px;
+
 }
 
 /***********************************************************HEADER********************************************************************/
 header {
-    background-color: var(--background-color);
     width: auto;
     height: auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
-header h1 {
-    margin-bottom: 8vh;
-    font-family: "Zen Dots";
+h1 {
     color: var(--secondary-color);
-    font-size: calc(3vw + 4vh);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font1);
 }
+
+
+.title {
+    font-size: 1.5em;
+    margin: 40px;
+}
+
+
 
 /************************************************************BODY*********************************************************************/
 body {
@@ -101,7 +112,7 @@ main {
     text-align: center;
     transform: rotateY(180deg);
     border-radius: 10px;
-    overflow:auto;
+    overflow: auto;
 }
 
 .back img {
@@ -139,11 +150,13 @@ main {
 .thecard:hover {
     transform: rotateY(180deg);
 }
+
 .buttoncontainer {
     width: auto;
     position: sticky;
-    top:80%;
+    top: 80%;
 }
+
 .button {
     display: flex;
     justify-content: center;
@@ -152,14 +165,14 @@ main {
     border-radius: 2em;
     width: 60%;
     padding: 4% 3%;
-    cursor: pointer; 
+    cursor: pointer;
     color: var(--third-color);
     border-width: 0.2em;
     background-color: var(--background-color);
     border: var(--secondary-color) 0.175em solid;
-    text-shadow: 
-    0 0 0.125em hsl(0 0% 100% / 0.5),
-    0 0 0.125em currentColor;
+    text-shadow:
+        0 0 0.125em hsl(0 0% 100% / 0.5),
+        0 0 0.125em currentColor;
     box-shadow: 0 0 0.05em 0 var(--background-color);
 }
 
@@ -205,7 +218,7 @@ main {
     transform: rotateY(180deg);
     border-radius: 10px;
     color: black;
-    overflow:auto;
+    overflow: auto;
 }
 
 .back-chosen img {
@@ -246,15 +259,16 @@ main {
 .thecard-chosen:hover {
     transform: rotateY(180deg);
 }
+
 .chosen-buttoncontainer {
     width: auto;
     position: sticky;
-    top:85%;
+    top: 85%;
 }
 
 
 .chosen-button {
-     display: flex;
+    display: flex;
     justify-content: center;
     color: var(--third-color);
     text-decoration: none;
@@ -265,18 +279,28 @@ main {
     cursor: pointer;
     background-color: var(--background-color);
     font-size: calc(1vh + 1vw);
-    margin: auto; 
+    margin: auto;
     border: var(--secondary-color) 0.175em solid;
-    text-shadow: 
-    0 0 0.125em hsl(0 0% 100% / 0.5),
-    0 0 0.125em currentColor;
+    text-shadow:
+        0 0 0.125em hsl(0 0% 100% / 0.5),
+        0 0 0.125em currentColor;
     box-shadow: 0 0 0.05em 0 var(--background-color);
 
-    
+
+}
+
+.chosen-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    box-shadow: none;
+}
+
+.chosen-button:active {
+    transform: translateY(2px);
 }
 
 /****************************************************************FOOTER***************************************************************/
-footer small ul {
+/* footer small ul {
     margin-top: 8vh;
     margin-bottom: 2vh;
     display: flex;
@@ -289,14 +313,29 @@ footer a {
     margin-right: 9vh;
     color: var(--secondary-color);
     font-size: calc(0.8vh + 0.8vw);
+} */
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 2rem 1rem;
+    /* padding-bottom: 10px; */
 }
+
+li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
 /****************************************************************MEDIA QUERIES***************************************************************/
 @media screen and (max-width: 1300px) {
     .grid-gallery {
         display: none;
     }
+
     .desktop-footer {
         display: none;
     }
-    
+
 }
