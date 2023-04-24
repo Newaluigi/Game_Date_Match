@@ -94,9 +94,9 @@ h3 {
     justify-content: space-around;
     display: flex;
     align-items: center
-
 }
-form{
+
+form {
     position: relative;
 
     margin-bottom: 5px;
@@ -135,9 +135,9 @@ button {
     border-radius: 3em;
     border-color: var(--secondary-color);
     color: var(--third-color);
-    text-shadow: 
-    0 0 0.125em hsl(0 0% 100% / 0.5),
-    0 0 0.125em currentColor;
+    text-shadow:
+        0 0 0.125em hsl(0 0% 100% / 0.5),
+        0 0 0.125em currentColor;
     box-shadow: 0 0 0.5em 0 var(--secondary-color);
     animation: slideDown 2s;
     background-color: var(--background-color);
@@ -188,30 +188,17 @@ button:hover {
 
 /*----------------FOOTER----------------------*/
 
-footer {
-    color: var(--secondary-color);
+footer ul {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 68px;
-    margin-right: 65px;
-
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 2rem 1rem;
+    margin-top: 60px;
 }
 
 li a {
-
-    list-style: none;
     text-decoration: none;
-    font-family: var(--font2);
     color: var(--secondary-color);
-    display: inline;
-    margin-right: 35px;
-}
-
-.foot {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 /*----------------RESPONSIVE-----------------*/
@@ -249,9 +236,9 @@ li a {
         padding-bottom: 20px;
     }
 
-    footer {
+    /* footer {
         display: flex;
         justify-content: space-evenly;
-    }
+    } */
 
 }
