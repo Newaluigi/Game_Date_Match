@@ -1,24 +1,25 @@
-/* ROOTER */ 
+/* ROOTER */
 :root {
     --background-color: #373748;
     --main-color: #A5A5C6;
-    --secondary-color:#D691CE;
-    --third-color:#FFFFFF;
+    --secondary-color: #D691CE;
+    --third-color: #FFFFFF;
     --font2: "poppins", sans-serif;
     --font1: "Zen Dots", cursive;
 }
 
-/* PARAMETRE GLOBAL */       
+/* PARAMETRE GLOBAL */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* BODY */
 body {
     background: no-repeat url(../img/heart2.png) center;
     background-color: var(--background-color);
-    height: 100vh;
+    height: 80vh;
 }
 
 /* LOGO */
@@ -28,7 +29,8 @@ body {
 }
 
 /* TEXT */
-ul, a {
+ul,
+a {
     list-style: none;
     text-decoration: none;
     color: var(--secondary-color);
@@ -36,22 +38,30 @@ ul, a {
 }
 
 /* HOME CONTAINER */
-.home-container h1, h3 {
+.home-container h1,
+h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: var(--font1);
     color: var(--secondary-color);
 }
-.title h1{
-    font-size: 1.6em;
-    margin-top: 4rem;
+
+.title h1 {
+    /* font-size: 1.6em;
+    margin-top: 4rem; */
+    font-size: 2.6em;
+    margin-top: 3rem;
+    text-align: center;
 }
-.subtitle h3, a {
+
+.subtitle h3,
+a {
     font-size: 1.6em;
 }
+
 .subtitle h3 {
-    margin-top: 40rem;
+    margin-top: 30rem;
 }
 
 .subtitle {
@@ -60,10 +70,11 @@ ul, a {
     justify-content: center;
     align-items: center;
 }
+
 .neon-btn {
     width: 228px;
     height: 82px;
-    margin: 10rem 0 0 0;
+    margin: 2rem 0 0 0;
     padding: 0.75em 1em;
     display: flex;
     justify-content: center;
@@ -73,9 +84,9 @@ ul, a {
     border-radius: 2em;
     border-color: var(--secondary-color);
     color: var(--third-color);
-    text-shadow: 
-    0 0 0.125em hsl(0 0% 100% / 0.5),
-    0 0 0.125em currentColor;
+    text-shadow:
+        0 0 0.125em hsl(0 0% 100% / 0.5),
+        0 0 0.125em currentColor;
     box-shadow: 0 0 0.5em 0 var(--secondary-color);
     animation: slideDown 2s;
 }
@@ -85,20 +96,31 @@ ul, a {
         transform: translateY(256px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
-        opacity: 1; 
+        opacity: 1;
     }
 }
 
+.neon-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    box-shadow: none;
+}
+
+.neon-btn:active {
+    transform: translateY(2px);
+}
 
 /* FOOTER */
 .footer-container a {
     font-size: 0.95em;
 }
-.footer-container ul{
+
+.footer-container ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 2rem 1rem;
 }
@@ -109,5 +131,22 @@ ul, a {
 @media screen and (min-width:1300px) {
     .staff {
         margin-left: -40px;
+    }
+
+    body {
+        height: 80vh;
+    }
+
+    footer {
+        margin-top: 120px;
+        justify-content: space-around;
+    }
+
+    .title h1 {
+        /* font-size: 1.6em;
+        margin-top: 4rem; */
+        font-size: 4em;
+        margin-top: 3rem;
+        text-align: center;
     }
 }
