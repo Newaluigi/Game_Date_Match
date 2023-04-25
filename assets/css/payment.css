@@ -28,6 +28,7 @@ header h1 {
     margin-left: 20px;
 
 }
+
 #logo {
     position: absolute;
     margin-right: 15px;
@@ -186,6 +187,7 @@ li a {
     .staff {
         margin-left: -1px;
     }
+
     #logo img {
         width: 30%;
         height: 30%;
@@ -216,4 +218,5 @@ li a {
     footer {
         display: flex;
         justify-content: space-evenly;
-}}
+    }
+}
