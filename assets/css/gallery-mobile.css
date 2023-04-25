@@ -37,7 +37,7 @@
         display: flex;
         justify-content: center;
         font-family: var(--font1);
-        padding-top: 30px;
+        padding-top: 40px;
     }
 
     #logo img {
@@ -390,7 +390,7 @@
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
-    background-image: url(/assets/img/cardbackgroundhighres.jpeg);
+    background-image: url(../img/cardbackgroundhighres.jpeg);
     background-size: 100% 100%;
     border-radius: 10px;
 }
