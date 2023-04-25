@@ -135,49 +135,69 @@ The site is developped in mobile-first but some screens below are from desktop b
 Animation added on the  main button.
 <br />
 <br />
-![](/assets/img/README/screen_home.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_home.jpg' alt="screen home" height="25%" width="25%">
+</p>
 
 #### Search form
 Same questions between search form and sign-up form.
 <br />
 <br />
-![](/assets/img/README/screen_form.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_form.jpg' alt="screen home" height="75%" width="75%">
+</p>
 
 #### Match gallery
 The main difference between the mobile and desktop versions is on this page : a carroussel for the mobile and a flip-cards gallery for desktop
 <br />
 <br />
 
-![](/assets/img/README/screen_gallery_desk.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_gallery_desk.jpg' alt="screen gallery_desk" height="75%" width="75%">
+</p>
 
-![](/assets/img/README/screen_gallery_mob.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_gallery_mob.jpg' alt="screen gallery_mob" height="25%" width="25%">
+</p>
 
 #### Game
 Space invaders game with a landing page, the game (destroy all the invaders with five lives), and the page with the match's contact if the player win. If the player loose there an automatic redirection to the sign-up page.
 <br />
 <br />
-![](/assets/img/README/screen_game.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_game.jpg' alt="screen game" height="25%" width="25%">
+</p>
 
-![](/assets/img/README/screen_gameon.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_gameon.jpg' alt="screen gameon" height="75%" width="75%">
+</p>
 
-![](/assets/img/README/screen_gamewin.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_gamewin.jpg' alt="screen gamewin" height="25%" width="25%">
+</p>
 
 #### Sign-up
 Registration in 3 steps : selection of one of the two subscription, fill the form, fill the payment information. As there is no a real payment fonctionality, there is a redirection to a 404 page (with an invaders pixel art as a reminder of the previous game) to have a complete process.
 <br />
 <br />
-![](/assets/img/README/screen_signup_mob.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_signup_mob.jpg' alt="screen signup_mob" height="25%" width="25%">
+<img src='/assets/img/README/screen_newprofil.jpg' alt="screen newprofil" height="25%" width="25%">
+</p>
+<p align="center"> 
+<img src='/assets/img/README/screen_payment.jpg' alt="screen payment" height="25%" width="25%">
+<img src='/assets/img/README/screen_404.jpg' alt="screen 404" height="25%" width="25%">
+</p>
 
-![](/assets/img/README/screen_newprofil.jpg)
-
-![](/assets/img/README/screen_payment.jpg)
-
-![](/assets/img/README/screen_404.jpg)
 
 #### Bonus
-![](/assets/img/README/screen_terms.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_terms.jpg' alt="screen terms" height="75%" width="75%">
+</p>
 
-![](/assets/img/README/screen_staff_desk.jpg)
+<p align="center"> 
+<img src='/assets/img/README/screen_staff_desk.jpg' alt="screen staff_desk" height="75%" width="75%">
+</p>
 
 <br />
 
@@ -185,7 +205,7 @@ Registration in 3 steps : selection of one of the two subscription, fill the for
 
 ---
 
-## 📚 **ACKNOWLEDGMENTS**
+## 📚 **RESSOURCES**
 
 ### Gallery
 * Flip-card :
