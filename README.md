@@ -222,7 +222,7 @@ Registration in 3 steps : selection of one of the two subscription, fill the for
 
 ## 📜 **LICENSE**
 
-Powered in 2023 by the first group of Dev & Jerrie's class in Wild code school's dev formation.
+Powered in 2022 by the first group of Dev & Jerrie's class in Wild code school's dev formation.
 There is no commercial purpose.
 
 <br />
